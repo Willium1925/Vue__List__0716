@@ -25,6 +25,9 @@
       </li>
     </ul>
 
+    <h1>使用 ToDoForm 組件</h1>
+
+
 
 
 
@@ -44,6 +47,7 @@ export default {
   },
 
   data() {
+    // 這裡可以初始化待辦事項列表
     return {
       ToDoItems00: [
         { label: "銀魂", done: true },
@@ -55,7 +59,6 @@ export default {
         { label: "名偵探柯南", done: true },
         { label: "我的英雄學院", done: false },
       ],
-
     };
   },
   methods: {
