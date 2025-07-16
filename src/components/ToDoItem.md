@@ -1,4 +1,4 @@
-ToDoItem.vue 需求規格說明
+ToDoItem.vue 需求規格說明，若會需要修改到其他檔案也修改
 
 Props 定義：
 Label：必填屬性，型別為 String。用來顯示在待辦項目旁的標籤（label）。
